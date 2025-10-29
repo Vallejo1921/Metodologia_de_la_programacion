@@ -41,4 +41,7 @@ traceback Traceback (most recent call last):
            ^^^^^^^^^^^^^
 NameError: name 'Maxter_mesage' is not defined. Did you mean: 'Maxter_message'?
 
+NameError: significa que pusimos una variable nadakverienta y no jala el codigo
+o no asignamos un valor
+
 """
