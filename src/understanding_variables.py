@@ -32,6 +32,13 @@ Maxter_message = "Estoy aprendiendo python"
 print (Maxter_message)
 
 """
-Traceback
+Traceback: es un registro donde el interprete tuvo problemas al intentar ejecutar 
+su codigo
+
+traceback Traceback (most recent call last):
+  File "C:/Users/valle/projects/Metodologia_de_la_programacion/understanding_variables.py", line 32, in <module>
+    print (Maxter_mesage)
+           ^^^^^^^^^^^^^
+NameError: name 'Maxter_mesage' is not defined. Did you mean: 'Maxter_message'?
 
 """
