@@ -43,4 +43,29 @@ print("La division es de el tipo", type(division))
 print("La modulo es del tipo", type(modulo))
 print("La power es del tipo", type(power))
 
-#
+#Floats
+
+"""
+   Floats - Reales
+
+   son numeros sin punto decimal,
+   van desde -infty hasta infty
+
+   ejemplo:
+
+      #tipado dinamico
+
+           age = 25.5
+
+           lo podemos sumar, restar, multiplicar, dividir
+
+
+"""
+print(0.1+0.1)
+
+print(0.2-0.2)
+
+print(2*0.5)
+
+print(0.9/0.3)
+
