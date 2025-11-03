@@ -87,4 +87,20 @@ print(message_f_string)
 
 """
 
-famous_person = 
+###whitespace
+
+"""
+whitespaces se refiere a cualquier caracter que no se imprime,
+es decir, un tabulador y finales de lineas, los whitespaces
+se utilizan comunmente para organizar las salidas (prints)
+de tal manera que sea mmas amigable de leer o para los usuarios
+
+"""
+
+##Ejemplos
+
+print("Python")
+print("\tPython")
+print("\t\tPython")
+
+print("Yo: \n vavavava \n si \n fuaaa")

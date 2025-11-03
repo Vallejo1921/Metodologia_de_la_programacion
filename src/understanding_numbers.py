@@ -18,8 +18,8 @@
 
 """
 
-number_1 = 39
-number_2 = 13
+number_1 = 5
+number_2 = 7
 
 suma = number_1+number_2
 difference = number_1-number_2
@@ -68,4 +68,25 @@ print(0.2-0.2)
 print(2*0.5)
 
 print(0.9/0.3)
+
+
+###Imprimir edad de alguien
+
+
+age = 33
+
+message = " Charly tiene " + str(age) + "años"
+
+print(message)
+"""
+No es posible concatenar string con float por que son distintas 
+tipos de datos strings son "letas" y float son 123 num. y marca
+el error "TypeError" para convertir a string es str() 
+
+Zen de python
+"""
+
+message_f = f"Charly tiene {age} Años"
+
+print(message_f)
 
