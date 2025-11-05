@@ -104,3 +104,7 @@ print("\tPython")
 print("\t\tPython")
 
 print("Yo: \n vavavava \n si \n fuaaa")
+
+"""
+zen de python
+"""
