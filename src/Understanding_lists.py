@@ -161,3 +161,63 @@ if del_name in names:
 else:
     print(f'El nombre {del_name.title()} no se encuentra en la lista.')
 print(names)
+
+
+"""
+ordenar una lista
+   metodo de ordenar lista: sort()
+   lo que hace es ordenar la lista de forma permanente en orden alfabetico
+    
+  """
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+
+print("\nOrdenar una lista: method sort()\n")
+
+print(cars)
+
+cars.sort(reverse=True)
+
+print(cars)  # Salida ['audi', 'bmw', 'subaru', 'toyota']
+
+"""
+Metodo reverse()
+
+"""
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+
+print("\nInvertir el orden de una lista: method reverse()\n")
+print(motorcycles)  # Salida ['honda', 'yamaha', 'suzuki', 'ducati']
+motorcycles.reverse()
+print(motorcycles)  # Salida ['ducati', 'suzuki', 'yamaha', 'honda']
+
+"""
+cantidad de elementos en una lista
+   Metodo built-in len()
+"""
+cars = ['bmw', 'audi', 'toyota']
+
+print("\nCantidad de elementos en una lista: method len()\n")
+print(cars)  # Salida ['bmw', 'audi', 'toyota']
+print(len(cars))  # Salida 3
+print(f'La cantidad de elementos en la lista es: {len(cars)}')  
+
+"""
+Metodo built-in
+
+sorted()
+   .sorted() permite ordenar una lista temporalmente sin modificar el orden original de la lista
+
+"""
+
+Names = ['Charlie', 'Alice', 'Bob', 'David']
+
+print("\nOrdenar una lista temporalmente: method sorted()\n")
+
+print(Names)  # Salida ['Charlie', 'Alice', 'Bob', 'David']
+print(sorted(Names))  
+print("Los nombres ordenados temporalmente son:")
+print(sorted(Names))  
+print("Los nombres en su orden original son:")
+print(Names)  
+
