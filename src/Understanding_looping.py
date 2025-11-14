@@ -69,3 +69,8 @@ magicians = ["alice", "david", "jorge"]
 for magician in magicians: #un error de sintaxis es olvidar los dos puntos
     print(magician)
     print(f"great {magician}!, i can't wait to see your next trick.")
+
+
+
+
+
