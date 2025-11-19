@@ -107,14 +107,62 @@ else:
 
 """
 
-age = input("\n Please enter your age: ")
-print(age)
+"""
+try: 
+    # código que puede generar una excepción
+    do something
+ exept:
+    # código para manejar la excepción
+    handle exception
+"""
+age = 0
+
+try:
+  age = int(input("\n Please enter your age: "))
+        
+except: 
+
+    print("Invalid input. Please enter a valid age.")
+   
+    if age > 100:
+     print("your have lived a long life!")
+
+    elif age >= 18 and age <= 100:
+     print("You are old enough to vote!")
+
+    elif age < 18 and age >= 0:
+     print("You are not old enough to vote yet.")
+        
+    elif age < 0:
+        
+     print("Invalid age. Age cannot be negative.")
+
+print("hola charly")
 
 
-if int(age) >= 18:
-    print("You are old enough to vote!")
-    
+"""
+Hacer un programa que pregunte la edad de una persona
+y responda lo siguiente:
+   - si la edad es menor a 4 la entrada es gratis
+    - si la edad es entre 4 y 18 el precio es 200 rupias
+    - si la edad es mayor a 18 el precio es 400 rupias
+
+"""
+#Multiple if
+guisos = ["pollo", "res", "vegetariano", "pescado"]
+if "pollo" in guisos:
+    print("Si hay pollo")
 else:
-    print("You are not old enough to vote yet.")
-
-    
+    print("No hay pollo")
+if "res" in guisos:
+    print("Si hay res")
+else:
+    print("No hay res")
+if "vegetariano" in guisos:
+    print("Si hay vegetariano")
+else:
+    print("No hay vegetariano")
+if "pescado" in guisos:
+    print("Si hay pescado")
+else:
+    print("No hay pescado")
